@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #40514E;
+
+}
+h1{
+   margin: 0;
+   font-family: 'Island Moments', cursive;
+   font-size: 5rem;
+   color: #66BFBF;
+   padding-top: 50px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color:#11999E;
+  margin: 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6
+}
+hr{
+  border-style: dotted none none none;
+  border-width:7px;
+  width:7%;
+  border-color: #EAF6F6;
+  margin: 50px auto 50px auto;
+}
+
+p{
+    line-height: 2;
+}
+.topcontainer{
+  background-color: #C0EEE4;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top:50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.intro{
+  width:50%;
+  margin:auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.photo{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+
+
+}
+
+.photo1{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.msg{
+  margin:40px auto 80px;
+  width: 40%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 88;
+  -moz-border-radius: 88;
+  border-radius: 88px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+
+
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  padding: 30px;
+  background-color: #66BFBF;
+}
